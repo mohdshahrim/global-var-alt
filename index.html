@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>title</title>
+		
+		<script defer type="text/javascript" src="main.js"></script>
+		</head>
+	<body>
+	<style>
+		body {
+			background-color: honeydew;
+		}
+		.table {
+			background-color: white;
+			border: 1px solid black;
+			padding: 2em 2em 2em 1em;
+		}
+	</style>
+
+
+	<table id="table-form" class="table">
+		<tbody>
+			<tr>
+				<td>Name</td>
+				<td><input id="input-owner" name="owner" type="text"/></td>
+			</tr>
+			<tr>
+				<td>Age</td>
+				<td><input id="input-age" name="age" type="number"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input class="input-add-entry" name="input-car-make" type="text"></input></td>
+				<td><input class="input-add-entry" name="input-car-model" type="text"></input></td>
+				<td><input class="input-add-entry" name="input-car-color" type="text"></input></td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<p><button onclick="x.addRow()">Add</button></p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	</body>
+</html>
